@@ -100,7 +100,7 @@ export default function App() {
   return (
     <div className="layout">
 
-      {/* SIDEBAR */}
+      {}
       <aside className={`sidebar ${open ? "" : "collapse"}`}>
         <div className="logo">🛒 RetailTrade CRM</div>
 
@@ -128,10 +128,10 @@ export default function App() {
         </div>
       </aside>
 
-      {/* MAIN */}
+      {}
       <main className="main">
 
-        {/* HEADER */}
+        {}
         <div className="header">
           <div>
             <h1>Good Morning, Rohit 👋</h1>
@@ -145,7 +145,7 @@ export default function App() {
           </div>
         </div>
 
-        {/* STATS */}
+        {}
         <div className="stats">
           {stats.map((s, i) => (
             <div className="card" key={i}>
@@ -161,10 +161,10 @@ export default function App() {
           ))}
         </div>
 
-        {/* GRID */}
+        {}
         <div className="grid">
 
-          {/* TABLE */}
+          {}
           <div className="table card">
             <div className="tableHeader">
               <h3>Today's Lead Queue</h3>
@@ -188,7 +188,7 @@ export default function App() {
                 {leads.map((lead, i) => (
                   <tr key={i}>
 
-                    {/* LEAD */}
+                    {}
                     <td className="lead">
                       <span className={`avatar ${lead.color}`}>
                         {lead.initials}
@@ -199,32 +199,32 @@ export default function App() {
                       </div>
                     </td>
 
-                    {/* SOURCE */}
+                    {}
                     <td>{lead.source}</td>
 
-                    {/* INTEREST */}
+                    {}
                     <td>{lead.interest}</td>
 
-                    {/* LAST */}
+                    {}
                     <td>
                       <div className="sub">{lead.last}</div>
                       <span className="sub2">{lead.lastType}</span>
                     </td>
 
-                    {/* NEXT */}
+                    {}
                     <td>
                       <div className="next">{lead.next}</div>
                       <span className="time">{lead.time}</span>
                     </td>
 
-                    {/* PRIORITY */}
+                    {}
                     <td>
                       <span className={`badge ${lead.color}`}>
                         {lead.priority}
                       </span>
                     </td>
 
-                    {/* ACTION */}
+                    {}
                     <td className="actions">
                       <div className="iconBtn green"><FaPhone /></div>
                       <div className="iconBtn green"><FaWhatsapp /></div>
@@ -239,7 +239,7 @@ export default function App() {
             <div className="viewAll">View All Leads →</div>
           </div>
 
-          {/* RIGHT PANEL */}
+          {}
           <div className="right">
 
             <div className="card">
@@ -285,7 +285,7 @@ export default function App() {
 
         </div>
 
-        {/* FOLLOW UPS */}
+        {}
         <div className="card follow">
           <h3>Upcoming Follow Ups</h3>
 
