@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@ body {
   display: flex;
 }
 
-/* SIDEBAR */
+
 .sidebar {
   width: 240px;
   background: #ffffff;
@@ -61,7 +61,6 @@ body {
   margin-left: 6px;
 }
 
-/* PROFILE */
 .profile {
   display: flex;
   gap: 10px;
@@ -77,13 +76,12 @@ body {
   color: green;
 }
 
-/* MAIN */
+
 .main {
   flex: 1;
   padding: 20px 30px;
 }
 
-/* HEADER */
 .header {
   display: flex;
   justify-content: space-between;
@@ -105,7 +103,6 @@ body {
   cursor: pointer;
 }
 
-/* STATS */
 .stats {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -148,14 +145,13 @@ body {
 .bar.orange { background: #f97316; }
 .bar.purple { background: #9333ea; }
 
-/* GRID */
 .grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 20px;
 }
 
-/* TABLE */
+
 .table {
   padding: 0;
 }
@@ -192,7 +188,6 @@ td {
   font-size: 14px;
 }
 
-/* LEAD */
 .lead {
   display: flex;
   align-items: center;
@@ -227,7 +222,7 @@ td {
   color: #9ca3af;
 }
 
-/* NEXT */
+
 .next {
   font-weight: 500;
 }
@@ -237,12 +232,11 @@ td {
   color: red;
 }
 
-/* PRIORITY */
+
 .badge.red { background: #fee2e2; color: #dc2626; }
 .badge.orange { background: #ffedd5; color: #ea580c; }
 .badge.blue { background: #dbeafe; color: #2563eb; }
 
-/* ACTION */
 .actions {
   display: flex;
   gap: 8px;
@@ -268,7 +262,7 @@ td {
   color: #2563eb;
 }
 
-/* VIEW ALL */
+
 .viewAll {
   text-align: right;
   padding: 12px 16px;
@@ -277,7 +271,6 @@ td {
   cursor: pointer;
 }
 
-/* RIGHT */
 .right {
   display: flex;
   flex-direction: column;
@@ -295,7 +288,6 @@ td {
   height: 5px;
 }
 
-/* FOLLOW UPS */
 .follow {
   margin-top: 20px;
 }
@@ -331,7 +323,6 @@ td {
   color: #9ca3af;
 }
 
-/* NEW TAG */
 .new {
   color: #10b981;
   font-size: 11px;
